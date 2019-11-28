@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+		<script src="js/autenticacao.js"></script>
+	</head>
+	
+	<body>
+		
+		<form method="POST" onsubmit="return aut.validarCampos()"> 
+			<input id="txtUsuario" name="txtUsuario" type="text" value="" placeholder="User">
+			
+			<input id="txtSenha" name="txtSenha" type="password" value="" placeholder="Password">
+			
+			<input type="submit" value="Entrar">
+		</form>
+		
+	</body>
+</html>
